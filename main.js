@@ -10,6 +10,7 @@ const vincitoreDom = document.querySelector("#vincitore");
 const erroreDom = document.querySelector("#errore");
 const risultatoDom = document.querySelector(".risultato");
 
+
 function pariDispari(numeroUtente) {
     let numeroComputer = Math.floor(Math.random() * (5 - 1) + 1);
     let somma = numeroUtente + numeroComputer;
