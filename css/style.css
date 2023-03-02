@@ -12,3 +12,23 @@ body {
     margin: 50px auto;
     text-align: center;
 }
+
+h3 {
+    margin: 10px 0;
+}
+
+input, button {
+    padding: 5px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+#errore {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
