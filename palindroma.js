@@ -6,13 +6,13 @@ const risultatoDom = document.querySelector("#risultato");
 function verificaPalindroma(parola) {
     let reversed = [];
 
-    //tolgo gli spazi e punteggiatora
+    //tolgo gli spazi e punteggiatura
     //metto tutto in minuscolo cosi riesco a controllare anche le frasi
     let parolaSenzaSpazi = parola.split(" ").join("").toLowerCase().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"");
 
     //creo un array con la parola al contrario
-    for(let i = 0; i < parolaSenzaSpazi.length; i++) {
-        reversed.unshift(parolaSenzaSpazi[i]);
+    for(let i = parolaSenzaSpazi.length; i >= 0; i--) {
+        reversed.push(parolaSenzaSpazi[i]);
     }
 
     // controllo se la parola e uguale alla parola inversata
