@@ -40,25 +40,3 @@ dispariBtn.addEventListener('click', function() {
     
     inputDom.value = "";
 })
-
-
-/*const pariDispari = prompt("Inserisci Pari o Dispari");
-const numeroUtente = parseInt(prompt("Inserisci numero da 1 a 5"));
-
-function sceltaComputer() {
-    return Math.floor(Math.random() * (5 - 1) + 1);
-}
-
-function sceltaVincitore(sceltaUtente) {
-    if(sceltaUtente == "pari" ) 
-}
-
-if(numeroUtente >= 1 && numeroUtente <= 5) {
-    let somma = numeroUtente + sceltaComputer();
-} else {
-    console.log("numero non valido");
-}
-
-if(pariDispari == "pari" || pariDispari == "dispari") {
-
-}*/
